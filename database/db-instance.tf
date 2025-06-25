@@ -1,10 +1,10 @@
-resource "aws_db_instance" "mydb" {
-  identifier             = "mydb"
+resource "aws_db_instance" "mydbbharath2025" {
+  identifier             = "mydbbharath2025"
   engine                 = "mysql"
   engine_version         = "8.0.32"
   instance_class         = "db.t3.micro"
   allocated_storage      = 20
-  db_name                = "mydatabase"
+  db_name                = "mydatabase2025"
   username               = "admin"
   password               = "password"
   parameter_group_name   = "default.mysql8.0"
