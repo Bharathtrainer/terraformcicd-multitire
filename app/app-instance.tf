@@ -1,5 +1,5 @@
 resource "aws_instance" "app" {
-  ami           = "ami-0c55b159cbfafe1f0"
+  ami           = "ami-014e30c8a36252ae5"
   instance_type = "t2.micro"
   count         = 2
 
